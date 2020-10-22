@@ -1,9 +1,12 @@
 import Menu from '../components/Menu';
+import Layout from '../components/Layout';
+
 export default function Index() {
   return (
     <>
-      <Menu />
+      <Layout>
       <p>こちらがHomeページ</p>
+      </Layout>
     </>
   );
 }
